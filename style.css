@@ -1,0 +1,341 @@
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+}
+.page-1{
+    background-image: url(store/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    padding: 0px 20px;
+}
+.head{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#lang{
+    padding: 7px;
+    font-size: 0.4rem;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+.sign{
+    padding: 7px;
+    background-color: red;
+    font-weight: bolder;
+    color: white;
+    font-size: 0.5rem;
+} 
+.section{
+    padding: 15vh 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section input{
+    padding: 10px;
+    font-size: large;
+    background-color: rgba(255, 255,255,0.1);
+    opacity: 0.8;
+    width: 80%;
+    border: 1px solid white;
+}
+.start{
+    padding: 5px;
+    background-color: red;
+    font-size: 0.7rem;
+}
+.text{
+    text-align: center;
+    padding: 10px;
+}
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1rem;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.page-2-4-5{
+    padding: 70px 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ /* .img{
+     width: 750px;
+     /* position: absolute; */
+
+.page-2-text{
+    width: 40%;
+}
+.tv{
+    /* background-image: url(store/tv.png);
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    position: relative;
+    width: 750px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tv1 video{
+    height: 598px;
+    transform: translateY(-11px);
+    width: 474px;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+}
+.tv1 img{
+    width: 648px;
+    height: 500px;
+    position: absolute;
+}
+.tv2 video{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    transform: translateY(-65px);
+}
+.tv2 img {
+    width: 750px;
+    height: 500px;
+    position: absolute;
+}
+@media screen and (max-width:750px) {
+    .tv{
+        width: 500px;
+        height: 300px;
+    }
+    .tv2 video{
+        height: 149px;
+        width: 311px;
+        transform: translateY(-51px);
+    }
+    .tv2 img {
+      width: 500px;
+      height: 300px;
+    }
+    .tv1 video{
+        transform: translateY(-8px);
+        width: 282px;
+    }
+    .tv1 img{
+        width: 373px;
+        height: 300px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .tv{
+        width: 300px;
+        height: 200px;
+    }
+    .tv2 video{
+        height: 100px;
+        width: 135px;
+        transform: translateY(-36px);
+
+    }
+    .tv2 img {
+      width: 300px;
+      height: 200px;
+    }
+    .tv1 video{
+        transform: translateY(-4px);
+        width: 165px;
+    }
+    .tv1 img{
+        width: 224px;
+        height: 172px;
+    }
+    .milli {
+        width: 60%;
+    }
+
+}
+.separate{
+    height: 10px;
+    background-color: rgb(46, 46, 46);
+}
+.page-3{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px 20px;
+    width: 100%;
+}
+.page-3-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.page-3-box{
+    /* padding: 5px; */
+    color: white;
+    border: 2px solid white;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    width: 60%;
+}
+.page-3-text{
+    width: 90%;
+}
+.page-3 p{
+    font-size: 0.5rem;
+}
+.page-3 p:nth-child(2){
+    color: blue;
+}
+.page-3-box img{
+    width: 20%;
+    height: 90%;
+    /* margin: 10px; */
+}
+.milli{
+    width: 40%;
+}
+.page-6{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 10px;
+}
+.block{
+  width: 90%;
+
+}
+.que{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(45, 45, 45);
+  padding: 10px 25px;
+  border-radius: 4px;
+  height: 10vh;
+  cursor: pointer;
+}
+.que:hover{
+    background-color:rgb(75, 74, 74);
+}
+.question{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.icon{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.answer{
+    background-color: rgb(45, 45, 45);
+    margin: 1px 0px;
+    padding: 25px;
+    font-size: 1.3rem;
+    border-radius: 4px;
+}
+.hidden {
+    display: none;
+}
+.page-7{
+    background-color: black;
+    color: white;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.page-7 ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(4,30%);
+    cursor: pointer;
+    height: 100px;
+}
+.page-7 ul :hover{
+    color: white;
+}
+.tag {
+    font-size: 0.6rem;
+    color: gray;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:750px) {
+    *{
+        font-size: 16px;
+    }   
+    .page-2-4-5 img{
+        width: 80%;
+   }
+   .page-2-text{
+       width: 80%;
+   }
+
+}
+@media screen and (max-width: 500px) {
+    * {
+        font-size: 14px;
+    }
+    .page-7 ul {
+        grid-template-columns: repeat(2, 45%);
+        grid-template-rows: repeat(8, 25px);
+        height: 200px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
